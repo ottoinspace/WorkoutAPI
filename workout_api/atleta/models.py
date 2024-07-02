@@ -1,5 +1,7 @@
 from datetime import datetime
+
 from workout_api.contrib.models import BaseModel
+
 from sqlalchemy import DateTime, Float, Integer, String, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
